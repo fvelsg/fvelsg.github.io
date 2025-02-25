@@ -1,15 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007BFF">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Player de Áudio</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+            position: relative;
+        }
+        #button {
+            width: 90vw;
+            height: 75vh;
+            background-color: #007BFF;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.3s;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+        #button:hover {
+            background-color: #0056b3;
+        }
+        .top-buttons {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .control-button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .control-button:hover {
+            background: #218838;
+        }
+        #progress {
+            width: 90vw;
+            margin-top: 15px;
+            appearance: none;
+            height: 5px;
+            background: #ffffff;
+            border-radius: 5px;
+            outline: none;
+        }
+        #progress::-webkit-slider-thumb {
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            background: #007BFF;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Personal Projects</h1>
-    <h2><a href="Audio Bible/index.html">Audio Bible</a></h2><br>
-    <h2><a href="#">Other</a></h2>
+    <input type="file" id="audioFile" accept="audio/*" style="display: none;">
+    <div class="top-buttons">
+        <button id="repeatButton" class="control-button">Repetir: OFF</button>
+        <button id="fullscreenButton" class="control-button">Tela Cheia</button>
+    </div>
+    <button id="button">Escolha um arquivo</button>
+    <audio id="audio" controls style="display: none;"></audio>
+    <input type="range" id="progress" value="0" min="0" step="0.1">
+    <p>Repetições: <span id="repeatCount">0</span></p>
+    
+    <script>
+        const audio = document.getElementById("audio");
+        const fileInput = document.getElementById("audioFile");
+        const button = document.getElementById("button");
+        const fullscreenButton = document.getElementById("fullscreenButton");
+        const repeatButton = document.getElementById("repeatButton");
+        const progress = document.getElementById("progress");
+        const repeatCountDisplay = document.getElementById("repeatCount");
+        let repeat = false;
+        let repeatCount = 0;
+
+        button.addEventListener("click", function() {
+            if (!audio.src) {
+                fileInput.click();
+            } else {
+                if (audio.paused) {
+                    audio.play();
+                    button.textContent = "Pausar";
+                } else {
+                    audio.pause();
+                    button.textContent = "Tocar";
+                }
+            }
+        });
+
+        fileInput.addEventListener("change", function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const objectURL = URL.createObjectURL(file);
+                audio.src = objectURL;
+                audio.play();
+                button.textContent = "Pausar";
+                repeatCount = 0;
+                repeatCountDisplay.textContent = repeatCount;
+            }
+        });
+
+        audio.addEventListener("ended", function() {
+            if (repeat) {
+                audio.currentTime = 0;
+                audio.play();
+                repeatCount++;
+                repeatCountDisplay.textContent = repeatCount;
+            } else {
+                button.textContent = "Tocar";
+            }
+        });
+
+        fullscreenButton.addEventListener("click", function() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        });
+
+        repeatButton.addEventListener("click", function() {
+            repeat = !repeat;
+            repeatButton.textContent = `Repetir: ${repeat ? "ON" : "OFF"}`;
+            if (!repeat) {
+                repeatCount = 0;
+                repeatCountDisplay.textContent = repeatCount;
+            }
+        });
+
+        audio.addEventListener("timeupdate", function() {
+            progress.max = audio.duration;
+            progress.value = audio.currentTime;
+        });
+
+        progress.addEventListener("input", function() {
+            audio.currentTime = progress.value;
+        });
+    </script>
 </body>
 </html>
