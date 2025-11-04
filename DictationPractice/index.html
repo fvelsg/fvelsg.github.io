@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Treinador de Transcrição</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="theme-switch-wrapper">
+        <span class="slider-icon">☀️</span>
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider"></span>
+        </label>
+        <span class="slider-icon">🌙</span>
+        <button id="configBtn" class="config-btn" title="Configurações">⚙️</button>
+      </div>
+  
+      <h1>Treinador de Transcrição</h1>
+  
+      <h2>1. Escolha a mídia</h2>
+      <div class="tab-container">
+        <button class="tab active" onclick="openTab(event, 'youtube-tab')">Vídeo do YouTube</button>
+        <button class="tab" onclick="openTab(event, 'audio-tab')">Áudio/Vídeo</button>
+      </div>
+  
+      <div id="youtube-tab" class="tab-content active">
+        <div class="input-group">
+          <label for="youtubeUrl">URL do Vídeo do YouTube:</label>
+          <input type="text" id="youtubeUrl" placeholder="Coloque a URL do YouTube aqui (ex: https://www.youtube.com/watch?v=XXXX)" value="https://www.youtube.com/watch?v=ph799sFMVaQ">
+          <button onclick="carregarYouTube()">Carregar Vídeo</button>
+        </div>
+      </div>
+  
+      <div id="audio-tab" class="tab-content">
+        <div class="input-group">
+          <label for="localMediaType">Selecione o tipo de mídia:</label>
+          <div class="radio-group">
+            <input type="radio" id="audioRadio" name="localMediaType" value="audio" checked>
+            <label for="audioRadio">Áudio</label>
+            <input type="radio" id="videoRadio" name="localMediaType" value="video">
+            <label for="videoRadio">Vídeo</label>
+          </div>
+          
+          <div class="input-option">
+            <label for="mediaFile">Selecione o arquivo local:</label>
+            <div class="file-input-container">
+              <button class="file-input-button">Escolher arquivo...</button>
+              <input type="file" id="mediaFile" accept="audio/*,video/*" onchange="updateFileName(this, 'mediaFileName')">
+            </div>
+            <span id="mediaFileName" class="file-name">Nenhum arquivo selecionado</span>
+          </div>
+          
+          <div class="input-option">
+            <label for="mediaUrl">Ou insira a URL direta para o arquivo:</label>
+            <input type="text" id="mediaUrl" placeholder="https://exemplo.com/video.mp4">
+          </div>
+          
+          <button onclick="carregarMidiaLocal()">Carregar Mídia</button>
+        </div>
+      </div>
+  
+      <h2>2. Carregue o arquivo de transcrição</h2>
+      <div class="input-group">
+        <label for="transcricaoFile">Selecione o arquivo de transcrição (formato .txt ou .srt):</label>
+        <div class="file-input-container">
+          <button class="file-input-button">Escolher arquivo...</button>
+          <input type="file" id="transcricaoFile" accept=".txt,.srt" onchange="updateFileName(this, 'transcricaoFileName')">
+        </div>
+        <span id="transcricaoFileName" class="file-name">Nenhum arquivo selecionado</span>
+        <button onclick="carregarTranscricaoArquivo()">Carregar Transcrição</button>
+      </div>
+  
+      <div class="contador" id="contador">Trecho: 0 / 0</div>
+  
+      <div class="media-container" id="media-container">
+        <div id="player"></div>
+        <audio id="audioPlayer" controls style="display: none;">
+          Seu navegador não suporta áudio.
+        </audio>
+      </div>
+  
+      <div class="context-control">
+        <button id="contextBtn" onclick="toggleContextOptions()">Ouvir Contexto</button>
+        <div id="contextOptions" class="context-options">
+          <div class="context-slider-group">
+            <label for="beforeContext">Segundos antes: <span id="beforeValue">2</span>s</label>
+            <input type="range" id="beforeContext" min="0" max="10" value="2" step="1" oninput="updateContextValue('before')">
+          </div>
+          <div class="context-slider-group">
+            <label for="afterContext">Segundos depois: <span id="afterValue">2</span>s</label>
+            <input type="range" id="afterContext" min="0" max="10" value="2" step="1" oninput="updateContextValue('after')">
+          </div>
+          <button onclick="ouvirContexto()">Reproduzir com Contexto</button>
+        </div>
+      </div>
+
+      <div class="shortcuts" id="shortcuts-info">
+        Atalhos: Pressione <kbd id="repeatShortcutDisplay">Ctrl</kbd> para repetir o trecho atual
+      </div>
+  
+      <h2>3. Pratique a transcrição</h2>
+      <p>Ouça o trecho e escreva o que entendeu:</p>
+  
+      <textarea id="userInput" placeholder="Digite aqui o que ouviu..." spellcheck="false"></textarea>
+      
+      <div class="button-container">
+        <button id="checkBtn" onclick="verificarResposta()">Verificar</button>
+        <button id="showBtn" onclick="mostrarErro()">Mostrar resposta</button>
+        <button id="prevBtn" onclick="trechoAnterior()">Trecho anterior</button>
+        <button id="nextBtn" onclick="proximoTrecho()">Próximo trecho</button>
+        <button id="repeatBtn" onclick="repetirTrecho()">Repetir trecho</button>
+        <button id="playAllBtn" onclick="reproduzirVideoCompleto()">Reproduzir completo</button>
+      </div>
+  
+      <div class="feedback" id="feedback"></div>
+      <div class="correct-text" id="correctText"></div>
+    </div>
+    
+    <!-- Modal de Configurações -->
+    <div id="configModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Configurações</h2>
+        
+        <div class="config-section">
+          <h3>Atalhos de Teclado</h3>
+          <p>Clique em um campo e pressione a tecla desejada para configurar o atalho</p>
+          
+          <div class="shortcut-config">
+            <label for="repeatShortcut">Repetir trecho:</label>
+            <input type="text" id="repeatShortcut" readonly placeholder="Pressione uma tecla" data-action="repeat" data-default="Control">
+            <button class="reset-btn" data-for="repeatShortcut">Redefinir</button>
+          </div>
+          
+          <div class="shortcut-config">
+            <label for="checkShortcut">Verificar resposta:</label>
+            <input type="text" id="checkShortcut" readonly placeholder="Pressione uma tecla" data-action="check" data-default="">
+            <button class="reset-btn" data-for="checkShortcut">Redefinir</button>
+          </div>
+          
+          <div class="shortcut-config">
+            <label for="showShortcut">Mostrar resposta:</label>
+            <input type="text" id="showShortcut" readonly placeholder="Pressione uma tecla" data-action="show" data-default="">
+            <button class="reset-btn" data-for="showShortcut">Redefinir</button>
+          </div>
+          
+          <div class="shortcut-config">
+            <label for="prevShortcut">Trecho anterior:</label>
+            <input type="text" id="prevShortcut" readonly placeholder="Pressione uma tecla" data-action="prev" data-default="">
+            <button class="reset-btn" data-for="prevShortcut">Redefinir</button>
+          </div>
+          
+          <div class="shortcut-config">
+            <label for="nextShortcut">Próximo trecho:</label>
+            <input type="text" id="nextShortcut" readonly placeholder="Pressione uma tecla" data-action="next" data-default="">
+            <button class="reset-btn" data-for="nextShortcut">Redefinir</button>
+          </div>
+          
+          <div class="shortcut-config">
+            <label for="playAllShortcut">Reproduzir completo:</label>
+            <input type="text" id="playAllShortcut" readonly placeholder="Pressione uma tecla" data-action="playAll" data-default="">
+            <button class="reset-btn" data-for="playAllShortcut">Redefinir</button>
+          </div>
+
+          <div class="shortcut-config">
+            <label for="contextShortcut">Ouvir contexto:</label>
+            <input type="text" id="contextShortcut" readonly placeholder="Pressione uma tecla" data-action="context" data-default="">
+            <button class="reset-btn" data-for="contextShortcut">Redefinir</button>
+          </div>
+        </div>
+        
+        <div class="config-buttons">
+          <button id="saveConfig">Salvar Configurações</button>
+          <button id="resetAllConfig">Redefinir Todos</button>
+        </div>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
