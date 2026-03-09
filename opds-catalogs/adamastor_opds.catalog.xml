@@ -1,1 +1,881 @@
-test
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-personal-catalog</id>
+  <title>Projecto Adamastor - Biblioteca</title>
+  <updated>2026-03-09T11:47:01Z</updated>
+  <author>
+    <name>Chico</name>
+  </author>
+  <link rel="self" href="catalog.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="catalog.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+
+  <entry>
+    <title>A Cidade e as Serras</title>
+    <id>urn:uuid:68ddd14b-9313-5551-bccd-79a9f1b56c1c</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-cidade-e-as-serras-eca-de-queiros/?wpdmdl=3017" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-cidade-e-as-serras-eca-de-queiros-mobi/?wpdmdl=3019" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Confissão de Lúcio</title>
+    <id>urn:uuid:06268a42-491c-5694-ba01-4ed5b3d8e6e0</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-confissao-de-lucio-mario-de-sa-carneiro/?wpdmdl=1793" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-confissao-de-lucio-mario-de-sa-carneiro-mobi/?wpdmdl=1812" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Escrava Isaura</title>
+    <id>urn:uuid:ed6f6e25-6fb1-5337-bc27-fb2235093e1e</id>
+    <author><name>Guimarães, Bernardo</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-escrava-isaura-bernardo-guimaraes/?wpdmdl=1802" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-escrava-isaura-bernardo-guimaraes-mobi/?wpdmdl=1821" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Falência</title>
+    <id>urn:uuid:86d9ac86-8dd6-5ab6-b3fb-2dd279f9ebfb</id>
+    <author><name>Almeida, Júlia Lopes de</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-falencia-julia-lopes-de-almeida/?wpdmdl=4470" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-falencia-julia-lopes-de-almeida-mobi/?wpdmdl=4472" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Geração Nova</title>
+    <id>urn:uuid:a188e72d-6c2f-5a01-9e48-f3b38cc5cf05</id>
+    <author><name>Bruno, Sampaio</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-geracao-nova-sampaio-bruno/?wpdmdl=2955" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-geracao-nova-sampaio-bruno-mobi/?wpdmdl=2958" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Ilustre Casa de Ramires</title>
+    <id>urn:uuid:c301c9ca-68c0-596a-bcc7-e3b385ce9936</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-ilustre-casa-de-ramires-eca-de-queiros/?wpdmdl=1790" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-ilustre-casa-de-ramires-eca-de-queiros-mobi/?wpdmdl=1809" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Luta</title>
+    <id>urn:uuid:951f3aab-6e2e-5887-899b-ee59b76d46ac</id>
+    <author><name>Dolores, Carmen</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-luta-carmen-dolores/?wpdmdl=4164" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-luta-carmen-dolores-mobi/?wpdmdl=4167" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Queda dum Anjo</title>
+    <id>urn:uuid:da60d623-e25a-5191-94a5-8d7ac71a1706</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-queda-dum-anjo-camilo-castelo-branco/?wpdmdl=1796" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-queda-dum-anjo-camilo-castelo-branco-mobi/?wpdmdl=1815" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Ruiva</title>
+    <id>urn:uuid:808d93bb-23fa-5782-b94d-91e9d9fe3bca</id>
+    <author><name>Almeida, Fialho de</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-ruiva-fialho-de-almeida/?wpdmdl=1828" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-ruiva-fialho-de-almeida-mobi/?wpdmdl=1829" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Viúva Simões</title>
+    <id>urn:uuid:0a80dc41-433e-55cb-8f92-150aab69b914</id>
+    <author><name>Almeida, Júlia Lopes de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-viuva-simoes-julia-lopes-de-almeida/?wpdmdl=2779" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-viuva-simoes-julia-lopes-de-almeida-mobi/?wpdmdl=2781" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Amor de Perdição</title>
+    <id>urn:uuid:53441f20-b7aa-57a1-afef-ede0fabbd61e</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/amor-de-perdicao-camilo-castelo-branco/?wpdmdl=1834" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/amor-de-perdicao-camilo-castelo-branco-mobi/?wpdmdl=1835" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>As Minas de Salomão</title>
+    <id>urn:uuid:cad56dc9-a1fd-596d-bab3-5d87ce417060</id>
+    <author><name>Haggard, Rider</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-minas-de-salomao-h-rider-haggard/?wpdmdl=1803" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-minas-de-salomao-h-rider-haggard-mobi/?wpdmdl=1822" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Às Mulheres Portuguesas</title>
+    <id>urn:uuid:a88a7beb-e1e7-5407-b534-4d17e871958a</id>
+    <author><name>Osório, Ana de Castro</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-mulheres-portuguesas-ana-de-castro-osorio/?wpdmdl=4140" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-mulheres-portuguesas-ana-de-castro-osorio-mobi/?wpdmdl=4143" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>As Praias de Portugal</title>
+    <id>urn:uuid:87aa8397-e9de-5a7e-a95f-86cc3354c332</id>
+    <author><name>Ortigão, Ramalho</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-praias-de-portugal-ramalho-ortigao/?wpdmdl=3005" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-praias-de-portugal-ramalho-ortigao-mobi/?wpdmdl=3007" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>As Pupilas do Senhor Reitor</title>
+    <id>urn:uuid:14442c79-3e8d-5542-82c6-c1164aeac112</id>
+    <author><name>Dinis, Júlio</name></author>
+    <published>2021-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-pupilas-do-senhor-reitor/?wpdmdl=3613" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-pupilas-do-senhor-reitor-julio-dinis-mobi/?wpdmdl=3617" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Carlota Ângela</title>
+    <id>urn:uuid:47a1ce70-a9c0-5ea6-8416-b7f8b0335d12</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/carlota-angela-camilo-castelo-branco/?wpdmdl=2706" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/carlota-angela-camilo-castelo-branco-mobi/?wpdmdl=2708" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Causas da Decadência dos Povos Peninsulares</title>
+    <id>urn:uuid:5ade6f69-5a3a-5ca3-b22b-8f0e9b6d8e54</id>
+    <author><name>Quental, Antero de</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/causas-da-decadencia-dos-povos-peninsulares-antero-de-quental/?wpdmdl=1840" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/causas-da-decadencia-dos-povos-peninsulares-mobi/?wpdmdl=1841" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Céu em Fogo</title>
+    <id>urn:uuid:612408f0-afc4-529b-bd64-21376a35f3f0</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/ceu-em-fogo-mario-de-sa-carneiro/?wpdmdl=2182" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/ceu-em-fogo-mario-de-sa-carneiro-mobi/?wpdmdl=2184" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Charneca em Flor</title>
+    <id>urn:uuid:41760935-ec8d-59d8-8a7e-2815eeaadcdb</id>
+    <author><name>Espanca, Florbela</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/charneca-em-flor-florbela-espanca/?wpdmdl=1789" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/charneca-em-flor-florbela-espanca-mobi/?wpdmdl=1808" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Clepsidra</title>
+    <id>urn:uuid:8da009c6-75b7-50d6-a2b7-89168101e400</id>
+    <author><name>Pessanha, Camilo</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/clepsidra-camilo-pessanha/?wpdmdl=1824" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/clepsidra-camilo-pessanha-mobi/?wpdmdl=1825" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Contos</title>
+    <id>urn:uuid:035bd2bb-1d0c-5e86-8765-70325512c735</id>
+    <author><name>Câmara, João da</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/contos-joao-da-camara/?wpdmdl=1846" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/contos-joao-da-camara-mobi/?wpdmdl=1847" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Contos</title>
+    <id>urn:uuid:f0c75aac-5410-5405-b64a-de958987674a</id>
+    <author><name>Carvalhal, Álvaro do</name></author>
+    <published>2021-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/contos-alvaro-do-carvalhal/?wpdmdl=4040" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/contos-alvaro-do-carvalhal-mobi/?wpdmdl=4042" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Dentro da Noute</title>
+    <id>urn:uuid:d0b84a0e-2650-50ef-bbd7-912812cb8e75</id>
+    <author><name>AAVV</name></author>
+    <published>2017-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dentro-da-noute-contos-goticos/?wpdmdl=2297" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dentro-da-noute-contos-goticos-mobi/?wpdmdl=2299" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Dispersão</title>
+    <id>urn:uuid:2028e906-38ce-525f-9c8d-a8e7fc7ca9a8</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dispersao-mario-de-sa-carneiro/?wpdmdl=1838" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dispersao-mario-de-sa-carneiro-mobi/?wpdmdl=1839" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Dom Casmurro</title>
+    <id>urn:uuid:7eb4c8bf-2eef-5c46-a929-64aeae798c69</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dom-casmurro-machado-de-assis/?wpdmdl=1798" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dom-casmurro-machado-de-assis-mobi/?wpdmdl=1817" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Engrenagem</title>
+    <id>urn:uuid:da99732e-b87c-5ea4-a8e7-1489b08a377d</id>
+    <author><name>Gomes, Soeiro Pereira</name></author>
+    <published>2024-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/engrenagem-soeiro-pereira-gomes/?wpdmdl=5680" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/engrenagem-soeiro-pereira-gomes-mobi/?wpdmdl=5681" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Esfinge</title>
+    <id>urn:uuid:66e93422-3e53-5eea-8893-94e0e68b0e37</id>
+    <author><name>Neto, Coelho</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/esfinge-coelho-neto/?wpdmdl=3242" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/esfinge-coelho-neto-mobi/?wpdmdl=3244" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Esteiros</title>
+    <id>urn:uuid:99345c79-71ac-53a1-acfc-6ba5f159092e</id>
+    <author><name>Gomes, Soeiro Pereira</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/esteiros-soeiro-pereira-gomes/?wpdmdl=4677" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/esteiros-soeiro-pereira-gomes-mobi/?wpdmdl=4679" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Eu</title>
+    <id>urn:uuid:217f41a7-67e5-5e39-b6d8-7321ee83faa7</id>
+    <author><name>Anjos, Augusto dos</name></author>
+    <published>2017-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/eu-augusto-dos-anjos/?wpdmdl=2429" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/eu-augusto-dos-anjos-mobi/?wpdmdl=2431" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Eurico o Presbítero</title>
+    <id>urn:uuid:52ebb0d7-ea15-55c8-86db-20838715edf0</id>
+    <author><name>Herculano, Alexandre</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/eurico-o-presbitero-alexandre-herculano/?wpdmdl=1788" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/eurico-o-presbitero-alexandre-herculano-mobi/?wpdmdl=1805" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>EuroNovela</title>
+    <id>urn:uuid:ad655b2e-2f5d-50b8-babc-a101ce981c46</id>
+    <author><name>Vale de Almeida, Miguel</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/euronovela-miguel-vale-de-almeida/?wpdmdl=2812" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/euronovela-miguel-vale-de-almeida-mobi/?wpdmdl=2814" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Folhas Caídas</title>
+    <id>urn:uuid:f7b1f67e-d9ff-533c-9100-53d3514cf5f9</id>
+    <author><name>Garrett, Almeida</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/folhas-caidas-almeida-garrett/?wpdmdl=1799" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/folhas-caidas-almeida-garrett-mobi/?wpdmdl=1818" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Frei Luís de Sousa</title>
+    <id>urn:uuid:5e6a145f-b9bb-5174-8962-d368d0911cc0</id>
+    <author><name>Garrett, Almeida</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/frei-luis-de-sousa-almeida-garrett/?wpdmdl=2122" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/frei-luis-de-sousa-almeida-garrett-mobi/?wpdmdl=2124" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Guerras do Alecrim e Manjerona</title>
+    <id>urn:uuid:b09f35e4-b7de-545a-8696-cc1ea130e49c</id>
+    <author><name>Silva, António José da</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/guerras-do-alecrim-e-manjerona-antonio-jose-da-silva/?wpdmdl=3441" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/guerras-do-alecrim-e-manjerona-antonio-jose-da-silva-mobi/?wpdmdl=3443" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Hamlet</title>
+    <id>urn:uuid:9beefc1c-db3d-5fcd-860f-419314486563</id>
+    <author><name>Shakespeare, William</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/hamlet-william-shakespeare/?wpdmdl=1953" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/hamlet-william-shakespeare-mobi/?wpdmdl=1955" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Húmus</title>
+    <id>urn:uuid:072991ff-bcd5-5e72-a633-f5b633fabd4f</id>
+    <author><name>Brandão, Raul</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/humus-raul-brandao/?wpdmdl=3117" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/humus-raul-brandao-mobi/?wpdmdl=3119" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Lisboa em Camisa</title>
+    <id>urn:uuid:4c328ce8-33cc-57fb-a20a-f74e8adf68eb</id>
+    <author><name>Lobato, Gervásio</name></author>
+    <published>2024-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-em-camisa-gervasio-lobato/?wpdmdl=5646" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-em-camisa-gervasio-lobato-mobi/?wpdmdl=5647" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Lisboa no Ano 2000</title>
+    <id>urn:uuid:983c6a7b-f711-519a-bfb4-b02ccdf71307</id>
+    <author><name>Matos, Melo de</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-no-ano-2000-melo-de-matos/?wpdmdl=1832" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-no-ano-2000-melo-de-matos-mobi/?wpdmdl=1833" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Lisboa no Ano Três Mil</title>
+    <id>urn:uuid:e91dcc83-a6e0-5326-803b-dfecd7d3e367</id>
+    <author><name>Figueiredo, Cândido de</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-no-ano-tres-mil-candido-de-figueiredo/?wpdmdl=1842" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-no-ano-tres-mil-candido-de-figueiredo-mobi/?wpdmdl=1843" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Livro de Soror Saudade</title>
+    <id>urn:uuid:fa278514-c2a4-5b12-9963-f06e67e37677</id>
+    <author><name>Espanca, Florbela</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/livro-de-soror-saudade-florbela-espanca/?wpdmdl=1787" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/livro-de-soror-saudade-florbela-espanca-mobi/?wpdmdl=1806" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Loucura…</title>
+    <id>urn:uuid:0ca93967-5bb6-5a70-a6cb-2e583e72784c</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/loucura-mario-de-sa-carneiro/?wpdmdl=1800" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/loucura-mario-de-sa-carneiro-mobi/?wpdmdl=1819" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Macunaíma</title>
+    <id>urn:uuid:77fa3006-c284-570c-b084-9f6a5a1ef2ac</id>
+    <author><name>Andrade, Mário de</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/macunaima-mario-de-andrade/?wpdmdl=3297" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/macunaima-mario-de-andrade-mobi/?wpdmdl=3300" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Mármores</title>
+    <id>urn:uuid:5bd7e7be-373b-589d-b964-de718087e6e8</id>
+    <author><name>Silva, Francisca Júlia da</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/marmores-francisca-julia-da-silva/?wpdmdl=4289" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/marmores-francisca-julia-da-silva-mobi/?wpdmdl=4291" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Memórias Póstumas de Brás Cubas</title>
+    <id>urn:uuid:30fc6fe4-c30b-5bea-9538-6dfb8db80421</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2017-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/memorias-postumas-de-bras-cubas-machado-de-assis/?wpdmdl=2376" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/memorias-postumas-de-bras-cubas-machado-de-assis-mobi/?wpdmdl=2378" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Mensagem</title>
+    <id>urn:uuid:5c166938-3fc8-561f-805a-66bc4b2281c8</id>
+    <author><name>Pessoa, Fernando</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/mensagem-fernando-pessoa/?wpdmdl=1792" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/mensagem-fernando-pessoa-mobi/?wpdmdl=1811" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Mulheres e Crianças</title>
+    <id>urn:uuid:60fce569-57b8-5275-a219-a75a96518235</id>
+    <author><name>Carvalho, Maria Amália Vaz de</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/mulheres-e-criancas-maria-amalia-vaz-de-carvalho/?wpdmdl=3381" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/mulheres-e-criancas-maria-amalia-vaz-de-carvalho-mobi/?wpdmdl=3383" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Murmúrios do Sado</title>
+    <id>urn:uuid:35fff432-d2ae-5628-9236-090867a7c855</id>
+    <author><name>Andrade, Mariana Angélica de</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/murmurios-do-sado-mariana-angelica-de-andrade/?wpdmdl=4648" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/murmurios-do-sado-mariana-angelica-de-andrade/?wpdmdl=4648" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Não Sei Quantas Almas Tenho: Antologia Poética de Fernando Pessoa</title>
+    <id>urn:uuid:4a1e2c0a-30f1-58b5-b282-f9b036077eb6</id>
+    <author><name>Pessoa, Fernando</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/nao-sei-quantas-almas-tenho-fernando-pessoa/?wpdmdl=5564" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/nao-sei-quantas-almas-tenho-fernando-pessoa-mobi/?wpdmdl=5566" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Alienista</title>
+    <id>urn:uuid:58941c0b-abf2-5ffb-9884-0fb6d591c525</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-alienista-machado-de-assis/?wpdmdl=2828" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-alienista-machado-de-assis-mobi/?wpdmdl=2830" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Banqueiro Anarquista</title>
+    <id>urn:uuid:98dff570-1888-57e7-8503-dd54256aeac6</id>
+    <author><name>Pessoa, Fernando</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-banqueiro-anarquista-fernando-pessoa/?wpdmdl=1786" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-banqueiro-anarquista-fernando-pessoa-mobi/?wpdmdl=1807" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Cortiço</title>
+    <id>urn:uuid:962853a0-b3bd-5dae-a9e3-ae1cc7c6eb19</id>
+    <author><name>Azevedo, Aluísio</name></author>
+    <published>2017-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-cortico-aluisio-azevedo/?wpdmdl=2598" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-cortico-aluisio-azevedo-mobi/?wpdmdl=2600" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Crime do Padre Amaro</title>
+    <id>urn:uuid:e372583a-3abd-5bfa-bce1-8500e6306e01</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-crime-do-padre-amaro-eca-de-queiros/?wpdmdl=5528" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-crime-do-padre-amaro-eca-de-queiros-mobi/?wpdmdl=5531" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Defunto</title>
+    <id>urn:uuid:ce63eb9a-4583-51ab-9a44-1eb6c1bbac94</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-defunto-eca-de-queiros/?wpdmdl=1795" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-defunto-eca-de-queiros-mobi/?wpdmdl=1814" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Futuro à Janela</title>
+    <id>urn:uuid:5b974cca-a8dd-5bf3-bf8c-8faf5bc6e51b</id>
+    <author><name>Silva, Luís Filipe</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-futuro-a-janela-luis-filipe-silva/?wpdmdl=2653" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-futuro-a-janela-luis-filipe-silva-mobi/?wpdmdl=2655" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Livro de Cesário Verde</title>
+    <id>urn:uuid:0eb6d430-92f5-52bf-b15b-93815e283129</id>
+    <author><name>Verde, Cesário</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-livro-de-cesario-verde-cesario-verde/?wpdmdl=1791" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-livro-de-cesario-verde-cesario-verde-mobi/?wpdmdl=1810" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Lobisomem</title>
+    <id>urn:uuid:e70205fa-e148-5ef7-a9cc-ace7b12603e7</id>
+    <author><name>Almeida, Virgínia de Castro e</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-lobisomem-virginia-de-castro-e-almeida/?wpdmdl=4548" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-lobisomem-virginia-de-castro-e-almeida-mobi/?wpdmdl=4550" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Mandarim</title>
+    <id>urn:uuid:be121dc8-2578-501f-80e6-8e99d511e2f1</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-mandarim-eca-de-queiros/?wpdmdl=1826" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-mandarim-eca-de-queiros-mobi/?wpdmdl=1827" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Mistério da Estrada de Sintra</title>
+    <id>urn:uuid:d582a04f-6379-5fe2-9e78-b611e0e951d9</id>
+    <author><name>Queirós, Eça de; Ortigão, Ramalho</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-misterio-da-estrada-de-sintra-eca-de-queiros-e-ramalho-ortigao/?wpdmdl=1797" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-misterio-da-estrada-de-sintra-eca-de-queiros-e-ramalho-ortigao-mobi/?wpdmdl=1816" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Que Fazem Mulheres</title>
+    <id>urn:uuid:d9133625-37d8-5abe-8053-0e10b53728c3</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-que-fazem-mulheres-camilo-castelo-branco/?wpdmdl=1844" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-que-fazem-mulheres-camilo-castelo-branco-mobi/?wpdmdl=1845" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Que Há-de Ser o Mundo no Ano Três Mil</title>
+    <id>urn:uuid:e882e2dd-b698-58f9-892f-e7191eb64e7f</id>
+    <author><name>Souvestre, Émile</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-que-ha-de-ser-o-mundo-no-ano-tres-mil-emile-souvestre/?wpdmdl=2050" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-que-ha-de-ser-o-mundo-no-ano-tres-mil-emile-souvestre-mobi/?wpdmdl=2052" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Oaristos</title>
+    <id>urn:uuid:9023b15e-ae40-5d39-97db-f09ddf8c097f</id>
+    <author><name>Castro, Eugénio de</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/oaristos-eugenio-de-castro/?wpdmdl=3320" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/oaristos-eugenio-de-castro-mobi/?wpdmdl=3322" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Os Canibais</title>
+    <id>urn:uuid:3cd450a7-ed9f-593c-8f99-04e0ec0bfd3e</id>
+    <author><name>Carvalhal, Álvaro do</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-canibais-alvaro-do-carvalhal/?wpdmdl=1804" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-canibais-alvaro-do-carvalhal-mobi/?wpdmdl=1823" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Os Meus Amores</title>
+    <id>urn:uuid:8316fe48-cd84-568d-abbb-b6ab1762c123</id>
+    <author><name>Coelho, Trindade</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-meus-amores-trindade-coelho/?wpdmdl=2847" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-meus-amores-trindade-coelho-mobi/?wpdmdl=2849" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Os Pobres</title>
+    <id>urn:uuid:0c07aa45-c7f7-5618-8115-6f896bedbc56</id>
+    <author><name>Brandão, Raul</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-pobres-raul-brandao/?wpdmdl=2200" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-pobres-raul-brandao-mobi/?wpdmdl=2203" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Paisagens da China e do Japão</title>
+    <id>urn:uuid:4aa44fe7-8abc-5a6b-8532-eb6c5f94980b</id>
+    <author><name>Morais, Venceslau de</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/paisagens-da-china-e-do-japao-venceslau-de-morais/?wpdmdl=1830" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/paisagens-da-china-e-do-japao-venceslau-de-morais-mobi/?wpdmdl=1831" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Pátria</title>
+    <id>urn:uuid:d70ee81a-0b2f-5c3f-8a3a-4ba0c0e0c7d9</id>
+    <author><name>Junqueiro, Guerra</name></author>
+    <published>2021-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/patria-guerra-junqueiro/?wpdmdl=3556" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/patria-guerra-junqueiro-mobi/?wpdmdl=3558" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Poesias</title>
+    <id>urn:uuid:0ec385f4-ad4d-5061-a75b-5d95e40f6250</id>
+    <author><name>Bilac, Olavo</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/poesias-olavo-bilac/?wpdmdl=2915" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/poesias-olavo-bilac-mobi/?wpdmdl=2917" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Poesias Dispersas</title>
+    <id>urn:uuid:04f4a5af-d8e6-596d-9e17-84a1ca0ca055</id>
+    <author><name>Junqueiro, Guerra</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/poesias-dispersas-guerra-junqueiro/?wpdmdl=1801" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/poesias-dispersas-guerra-junqueiro-mobi/?wpdmdl=1820" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Quadros Vicentinos: Teatro de Gil Vicente</title>
+    <id>urn:uuid:40957518-47a8-5f90-b467-1347a1471b29</id>
+    <author><name>Vicente, Gil</name></author>
+    <published>2024-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quadros-vicentinos-teatro-de-gil-vicente/?wpdmdl=5733" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quadros-vicentinos-teatro-de-gil-vicente-mobi/?wpdmdl=5735" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Quatro Novelas</title>
+    <id>urn:uuid:91455ff6-49f6-596d-aaf2-c32d3234c59d</id>
+    <author><name>Osório, Ana de Castro</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quatro-novelas-ana-de-castro-osorio/?wpdmdl=1836" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quatro-novelas-ana-de-castro-osorio-mobi/?wpdmdl=1837" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Quincas Borba</title>
+    <id>urn:uuid:904e7075-9d63-5be2-93b0-45037a713d38</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quincas-borba-machado-de-assis/?wpdmdl=2733" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quincas-borba-machado-de-assis-mobi/?wpdmdl=2735" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Serão Inquieto</title>
+    <id>urn:uuid:2b902bec-2dbb-50b1-b9a9-e10176e44490</id>
+    <author><name>Patrício, António</name></author>
+    <published>2021-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/serao-inquieto-antonio-patricio/?wpdmdl=3491" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/serao-inquieto-antonio-patricio-mobi/?wpdmdl=3493" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Singularidades de uma Rapariga Loura</title>
+    <id>urn:uuid:9d1d124e-273f-5357-94cf-dd7f1d47dd16</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/singularidades-de-uma-rapariga-loura-eca-de-queiros/?wpdmdl=1794" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/singularidades-de-uma-rapariga-loura-eca-de-queiros-mobi/?wpdmdl=1813" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Só</title>
+    <id>urn:uuid:2af7d277-7605-534e-91a3-871964afb66a</id>
+    <author><name>Nobre, António</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/so-antonio-nobre/?wpdmdl=1848" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/so-antonio-nobre-mobi/?wpdmdl=1849" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Sonetos Completos</title>
+    <id>urn:uuid:e438bc9a-0c3a-53ff-9bbc-cf1ab0a43c99</id>
+    <author><name>Quental, Antero de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/sonetos-completos-antero-de-quental/?wpdmdl=2692" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/sonetos-completos-antero-de-quental-2/?wpdmdl=2694" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Triste Fim de Policarpo Quaresma</title>
+    <id>urn:uuid:135563ae-e8ad-54ba-be2c-962669262473</id>
+    <author><name>Barreto, Lima</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/triste-fim-de-policarpo-quaresma-lima-barreto/?wpdmdl=3050" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/triste-fim-de-policarpo-quaresma-lima-barreto-mobi/?wpdmdl=3052" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Várias Histórias</title>
+    <id>urn:uuid:28336be3-b5ec-51d3-8196-2f60f0cf0030</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/varias-historias-machado-de-assis/?wpdmdl=4720" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/varias-historias-machado-de-assis-mobi/?wpdmdl=4722" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Vidas Secas</title>
+    <id>urn:uuid:9198ce71-41ab-5107-be84-7beca52e5010</id>
+    <author><name>Ramos, Graciliano</name></author>
+    <published>2024-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/vidas-secas-graciliano-ramos/?wpdmdl=5751" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/vidas-secas-graciliano-ramos-mobi/?wpdmdl=5752" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Vozes Femininas: Antologia de Escritoras Lusófonas</title>
+    <id>urn:uuid:c6e7c8dd-9301-52b2-a566-948828f69b4d</id>
+    <author><name>AAVV</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T11:47:01Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/vozes-femininas-antologia-de-escritoras-lusofonas/?wpdmdl=4211" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/vozes-femininas-antologia-de-escritoras-lusofonas-mobi/?wpdmdl=4213" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>
