@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-haggard__rider</id>
+  <title>Obras de Haggard, Rider</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="haggard__rider.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>As Minas de Salomão</title>
+    <id>urn:uuid:cad56dc9-a1fd-596d-bab3-5d87ce417060</id>
+    <author><name>Haggard, Rider</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-minas-de-salomao-h-rider-haggard/?wpdmdl=1803" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-minas-de-salomao-h-rider-haggard-mobi/?wpdmdl=1822" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

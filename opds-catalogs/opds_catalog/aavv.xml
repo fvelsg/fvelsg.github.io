@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-aavv</id>
+  <title>Obras de AAVV</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="aavv.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Dentro da Noute</title>
+    <id>urn:uuid:d0b84a0e-2650-50ef-bbd7-912812cb8e75</id>
+    <author><name>AAVV</name></author>
+    <published>2017-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dentro-da-noute-contos-goticos/?wpdmdl=2297" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dentro-da-noute-contos-goticos-mobi/?wpdmdl=2299" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Vozes Femininas: Antologia de Escritoras Lusófonas</title>
+    <id>urn:uuid:c6e7c8dd-9301-52b2-a566-948828f69b4d</id>
+    <author><name>AAVV</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/vozes-femininas-antologia-de-escritoras-lusofonas/?wpdmdl=4211" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/vozes-femininas-antologia-de-escritoras-lusofonas-mobi/?wpdmdl=4213" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

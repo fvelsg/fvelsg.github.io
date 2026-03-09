@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-silva__luís_filipe</id>
+  <title>Obras de Silva, Luís Filipe</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="silva__luís_filipe.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>O Futuro à Janela</title>
+    <id>urn:uuid:5b974cca-a8dd-5bf3-bf8c-8faf5bc6e51b</id>
+    <author><name>Silva, Luís Filipe</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-futuro-a-janela-luis-filipe-silva/?wpdmdl=2653" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-futuro-a-janela-luis-filipe-silva-mobi/?wpdmdl=2655" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

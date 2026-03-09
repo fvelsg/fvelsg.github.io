@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-ortigão__ramalho</id>
+  <title>Obras de Ortigão, Ramalho</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="ortigão__ramalho.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>As Praias de Portugal</title>
+    <id>urn:uuid:87aa8397-e9de-5a7e-a95f-86cc3354c332</id>
+    <author><name>Ortigão, Ramalho</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-praias-de-portugal-ramalho-ortigao/?wpdmdl=3005" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-praias-de-portugal-ramalho-ortigao-mobi/?wpdmdl=3007" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

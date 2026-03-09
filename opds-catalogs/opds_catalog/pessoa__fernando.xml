@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-pessoa__fernando</id>
+  <title>Obras de Pessoa, Fernando</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="pessoa__fernando.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Mensagem</title>
+    <id>urn:uuid:5c166938-3fc8-561f-805a-66bc4b2281c8</id>
+    <author><name>Pessoa, Fernando</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/mensagem-fernando-pessoa/?wpdmdl=1792" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/mensagem-fernando-pessoa-mobi/?wpdmdl=1811" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Não Sei Quantas Almas Tenho: Antologia Poética de Fernando Pessoa</title>
+    <id>urn:uuid:4a1e2c0a-30f1-58b5-b282-f9b036077eb6</id>
+    <author><name>Pessoa, Fernando</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/nao-sei-quantas-almas-tenho-fernando-pessoa/?wpdmdl=5564" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/nao-sei-quantas-almas-tenho-fernando-pessoa-mobi/?wpdmdl=5566" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Banqueiro Anarquista</title>
+    <id>urn:uuid:98dff570-1888-57e7-8503-dd54256aeac6</id>
+    <author><name>Pessoa, Fernando</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-banqueiro-anarquista-fernando-pessoa/?wpdmdl=1786" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-banqueiro-anarquista-fernando-pessoa-mobi/?wpdmdl=1807" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

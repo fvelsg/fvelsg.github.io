@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-guimarães__bernardo</id>
+  <title>Obras de Guimarães, Bernardo</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="guimarães__bernardo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>A Escrava Isaura</title>
+    <id>urn:uuid:ed6f6e25-6fb1-5337-bc27-fb2235093e1e</id>
+    <author><name>Guimarães, Bernardo</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-escrava-isaura-bernardo-guimaraes/?wpdmdl=1802" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-escrava-isaura-bernardo-guimaraes-mobi/?wpdmdl=1821" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

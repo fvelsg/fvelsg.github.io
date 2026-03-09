@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-almeida__júlia_lopes_de</id>
+  <title>Obras de Almeida, Júlia Lopes de</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="almeida__júlia_lopes_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>A Falência</title>
+    <id>urn:uuid:86d9ac86-8dd6-5ab6-b3fb-2dd279f9ebfb</id>
+    <author><name>Almeida, Júlia Lopes de</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-falencia-julia-lopes-de-almeida/?wpdmdl=4470" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-falencia-julia-lopes-de-almeida-mobi/?wpdmdl=4472" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Viúva Simões</title>
+    <id>urn:uuid:0a80dc41-433e-55cb-8f92-150aab69b914</id>
+    <author><name>Almeida, Júlia Lopes de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-viuva-simoes-julia-lopes-de-almeida/?wpdmdl=2779" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-viuva-simoes-julia-lopes-de-almeida-mobi/?wpdmdl=2781" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

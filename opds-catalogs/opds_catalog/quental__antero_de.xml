@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-quental__antero_de</id>
+  <title>Obras de Quental, Antero de</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="quental__antero_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Causas da Decadência dos Povos Peninsulares</title>
+    <id>urn:uuid:5ade6f69-5a3a-5ca3-b22b-8f0e9b6d8e54</id>
+    <author><name>Quental, Antero de</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/causas-da-decadencia-dos-povos-peninsulares-antero-de-quental/?wpdmdl=1840" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/causas-da-decadencia-dos-povos-peninsulares-mobi/?wpdmdl=1841" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Sonetos Completos</title>
+    <id>urn:uuid:e438bc9a-0c3a-53ff-9bbc-cf1ab0a43c99</id>
+    <author><name>Quental, Antero de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/sonetos-completos-antero-de-quental/?wpdmdl=2692" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/sonetos-completos-antero-de-quental-2/?wpdmdl=2694" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

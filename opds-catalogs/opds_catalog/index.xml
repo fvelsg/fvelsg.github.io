@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-authors-root</id>
+  <title>Projecto Adamastor - Autores</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+
+  <entry>
+    <title>AAVV</title>
+    <id>urn:uuid:author-aavv</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="aavv.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Almeida, Fialho de</title>
+    <id>urn:uuid:author-almeida__fialho_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="almeida__fialho_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Almeida, Júlia Lopes de</title>
+    <id>urn:uuid:author-almeida__júlia_lopes_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="almeida__júlia_lopes_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Almeida, Virgínia de Castro e</title>
+    <id>urn:uuid:author-almeida__virgínia_de_castro_e</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="almeida__virgínia_de_castro_e.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Andrade, Mariana Angélica de</title>
+    <id>urn:uuid:author-andrade__mariana_angélica_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="andrade__mariana_angélica_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Andrade, Mário de</title>
+    <id>urn:uuid:author-andrade__mário_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="andrade__mário_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Anjos, Augusto dos</title>
+    <id>urn:uuid:author-anjos__augusto_dos</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="anjos__augusto_dos.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Assis, Machado de</title>
+    <id>urn:uuid:author-assis__machado_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="assis__machado_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 5 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Azevedo, Aluísio</title>
+    <id>urn:uuid:author-azevedo__aluísio</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="azevedo__aluísio.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Barreto, Lima</title>
+    <id>urn:uuid:author-barreto__lima</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="barreto__lima.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Bilac, Olavo</title>
+    <id>urn:uuid:author-bilac__olavo</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="bilac__olavo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Brandão, Raul</title>
+    <id>urn:uuid:author-brandão__raul</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="brandão__raul.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Bruno, Sampaio</title>
+    <id>urn:uuid:author-bruno__sampaio</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="bruno__sampaio.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Carneiro, Mário de Sá</title>
+    <id>urn:uuid:author-carneiro__mário_de_sá</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="carneiro__mário_de_sá.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 4 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Carvalhal, Álvaro do</title>
+    <id>urn:uuid:author-carvalhal__álvaro_do</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="carvalhal__álvaro_do.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Carvalho, Maria Amália Vaz de</title>
+    <id>urn:uuid:author-carvalho__maria_amália_vaz_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="carvalho__maria_amália_vaz_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Castelo Branco, Camilo</title>
+    <id>urn:uuid:author-castelo_branco__camilo</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="castelo_branco__camilo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 4 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Castro, Eugénio de</title>
+    <id>urn:uuid:author-castro__eugénio_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="castro__eugénio_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Coelho, Trindade</title>
+    <id>urn:uuid:author-coelho__trindade</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="coelho__trindade.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Câmara, João da</title>
+    <id>urn:uuid:author-câmara__joão_da</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="câmara__joão_da.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Dinis, Júlio</title>
+    <id>urn:uuid:author-dinis__júlio</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="dinis__júlio.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Dolores, Carmen</title>
+    <id>urn:uuid:author-dolores__carmen</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="dolores__carmen.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Espanca, Florbela</title>
+    <id>urn:uuid:author-espanca__florbela</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="espanca__florbela.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Figueiredo, Cândido de</title>
+    <id>urn:uuid:author-figueiredo__cândido_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="figueiredo__cândido_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Garrett, Almeida</title>
+    <id>urn:uuid:author-garrett__almeida</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="garrett__almeida.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Gomes, Soeiro Pereira</title>
+    <id>urn:uuid:author-gomes__soeiro_pereira</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="gomes__soeiro_pereira.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Guimarães, Bernardo</title>
+    <id>urn:uuid:author-guimarães__bernardo</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="guimarães__bernardo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Haggard, Rider</title>
+    <id>urn:uuid:author-haggard__rider</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="haggard__rider.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Herculano, Alexandre</title>
+    <id>urn:uuid:author-herculano__alexandre</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="herculano__alexandre.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Junqueiro, Guerra</title>
+    <id>urn:uuid:author-junqueiro__guerra</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="junqueiro__guerra.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Lobato, Gervásio</title>
+    <id>urn:uuid:author-lobato__gervásio</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="lobato__gervásio.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Matos, Melo de</title>
+    <id>urn:uuid:author-matos__melo_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="matos__melo_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Morais, Venceslau de</title>
+    <id>urn:uuid:author-morais__venceslau_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="morais__venceslau_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Neto, Coelho</title>
+    <id>urn:uuid:author-neto__coelho</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="neto__coelho.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Nobre, António</title>
+    <id>urn:uuid:author-nobre__antónio</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="nobre__antónio.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Ortigão, Ramalho</title>
+    <id>urn:uuid:author-ortigão__ramalho</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="ortigão__ramalho.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Osório, Ana de Castro</title>
+    <id>urn:uuid:author-osório__ana_de_castro</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="osório__ana_de_castro.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Patrício, António</title>
+    <id>urn:uuid:author-patrício__antónio</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="patrício__antónio.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Pessanha, Camilo</title>
+    <id>urn:uuid:author-pessanha__camilo</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="pessanha__camilo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Pessoa, Fernando</title>
+    <id>urn:uuid:author-pessoa__fernando</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="pessoa__fernando.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 3 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Queirós, Eça de</title>
+    <id>urn:uuid:author-queirós__eça_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="queirós__eça_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 6 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Queirós, Eça de; Ortigão, Ramalho</title>
+    <id>urn:uuid:author-queirós__eça_de__ortigão__ramalho</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="queirós__eça_de__ortigão__ramalho.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Quental, Antero de</title>
+    <id>urn:uuid:author-quental__antero_de</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="quental__antero_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 2 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Ramos, Graciliano</title>
+    <id>urn:uuid:author-ramos__graciliano</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="ramos__graciliano.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Shakespeare, William</title>
+    <id>urn:uuid:author-shakespeare__william</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="shakespeare__william.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Silva, António José da</title>
+    <id>urn:uuid:author-silva__antónio_josé_da</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="silva__antónio_josé_da.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Silva, Francisca Júlia da</title>
+    <id>urn:uuid:author-silva__francisca_júlia_da</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="silva__francisca_júlia_da.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Silva, Luís Filipe</title>
+    <id>urn:uuid:author-silva__luís_filipe</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="silva__luís_filipe.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Souvestre, Émile</title>
+    <id>urn:uuid:author-souvestre__émile</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="souvestre__émile.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Vale de Almeida, Miguel</title>
+    <id>urn:uuid:author-vale_de_almeida__miguel</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="vale_de_almeida__miguel.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Verde, Cesário</title>
+    <id>urn:uuid:author-verde__cesário</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="verde__cesário.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+  <entry>
+    <title>Vicente, Gil</title>
+    <id>urn:uuid:author-vicente__gil</id>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <link rel="subsection" href="vicente__gil.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <content type="text">Ver 1 livro(s)</content>
+  </entry>
+</feed>

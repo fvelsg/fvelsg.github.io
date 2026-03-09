@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-brandão__raul</id>
+  <title>Obras de Brandão, Raul</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="brandão__raul.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Húmus</title>
+    <id>urn:uuid:072991ff-bcd5-5e72-a633-f5b633fabd4f</id>
+    <author><name>Brandão, Raul</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/humus-raul-brandao/?wpdmdl=3117" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/humus-raul-brandao-mobi/?wpdmdl=3119" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Os Pobres</title>
+    <id>urn:uuid:0c07aa45-c7f7-5618-8115-6f896bedbc56</id>
+    <author><name>Brandão, Raul</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-pobres-raul-brandao/?wpdmdl=2200" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-pobres-raul-brandao-mobi/?wpdmdl=2203" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

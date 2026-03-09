@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-garrett__almeida</id>
+  <title>Obras de Garrett, Almeida</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="garrett__almeida.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Folhas Caídas</title>
+    <id>urn:uuid:f7b1f67e-d9ff-533c-9100-53d3514cf5f9</id>
+    <author><name>Garrett, Almeida</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/folhas-caidas-almeida-garrett/?wpdmdl=1799" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/folhas-caidas-almeida-garrett-mobi/?wpdmdl=1818" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Frei Luís de Sousa</title>
+    <id>urn:uuid:5e6a145f-b9bb-5174-8962-d368d0911cc0</id>
+    <author><name>Garrett, Almeida</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/frei-luis-de-sousa-almeida-garrett/?wpdmdl=2122" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/frei-luis-de-sousa-almeida-garrett-mobi/?wpdmdl=2124" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

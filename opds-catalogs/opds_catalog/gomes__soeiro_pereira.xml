@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-gomes__soeiro_pereira</id>
+  <title>Obras de Gomes, Soeiro Pereira</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="gomes__soeiro_pereira.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Engrenagem</title>
+    <id>urn:uuid:da99732e-b87c-5ea4-a8e7-1489b08a377d</id>
+    <author><name>Gomes, Soeiro Pereira</name></author>
+    <published>2024-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/engrenagem-soeiro-pereira-gomes/?wpdmdl=5680" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/engrenagem-soeiro-pereira-gomes-mobi/?wpdmdl=5681" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Esteiros</title>
+    <id>urn:uuid:99345c79-71ac-53a1-acfc-6ba5f159092e</id>
+    <author><name>Gomes, Soeiro Pereira</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/esteiros-soeiro-pereira-gomes/?wpdmdl=4677" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/esteiros-soeiro-pereira-gomes-mobi/?wpdmdl=4679" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

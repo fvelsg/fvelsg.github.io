@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-castelo_branco__camilo</id>
+  <title>Obras de Castelo Branco, Camilo</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="castelo_branco__camilo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>A Queda dum Anjo</title>
+    <id>urn:uuid:da60d623-e25a-5191-94a5-8d7ac71a1706</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-queda-dum-anjo-camilo-castelo-branco/?wpdmdl=1796" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-queda-dum-anjo-camilo-castelo-branco-mobi/?wpdmdl=1815" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Amor de Perdição</title>
+    <id>urn:uuid:53441f20-b7aa-57a1-afef-ede0fabbd61e</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/amor-de-perdicao-camilo-castelo-branco/?wpdmdl=1834" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/amor-de-perdicao-camilo-castelo-branco-mobi/?wpdmdl=1835" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Carlota Ângela</title>
+    <id>urn:uuid:47a1ce70-a9c0-5ea6-8416-b7f8b0335d12</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/carlota-angela-camilo-castelo-branco/?wpdmdl=2706" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/carlota-angela-camilo-castelo-branco-mobi/?wpdmdl=2708" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Que Fazem Mulheres</title>
+    <id>urn:uuid:d9133625-37d8-5abe-8053-0e10b53728c3</id>
+    <author><name>Castelo Branco, Camilo</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-que-fazem-mulheres-camilo-castelo-branco/?wpdmdl=1844" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-que-fazem-mulheres-camilo-castelo-branco-mobi/?wpdmdl=1845" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

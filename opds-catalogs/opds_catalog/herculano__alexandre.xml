@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-herculano__alexandre</id>
+  <title>Obras de Herculano, Alexandre</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="herculano__alexandre.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Eurico o Presbítero</title>
+    <id>urn:uuid:52ebb0d7-ea15-55c8-86db-20838715edf0</id>
+    <author><name>Herculano, Alexandre</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/eurico-o-presbitero-alexandre-herculano/?wpdmdl=1788" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/eurico-o-presbitero-alexandre-herculano-mobi/?wpdmdl=1805" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

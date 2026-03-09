@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-carneiro__mário_de_sá</id>
+  <title>Obras de Carneiro, Mário de Sá</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="carneiro__mário_de_sá.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>A Confissão de Lúcio</title>
+    <id>urn:uuid:06268a42-491c-5694-ba01-4ed5b3d8e6e0</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-confissao-de-lucio-mario-de-sa-carneiro/?wpdmdl=1793" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-confissao-de-lucio-mario-de-sa-carneiro-mobi/?wpdmdl=1812" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Céu em Fogo</title>
+    <id>urn:uuid:612408f0-afc4-529b-bd64-21376a35f3f0</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2016-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/ceu-em-fogo-mario-de-sa-carneiro/?wpdmdl=2182" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/ceu-em-fogo-mario-de-sa-carneiro-mobi/?wpdmdl=2184" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Dispersão</title>
+    <id>urn:uuid:2028e906-38ce-525f-9c8d-a8e7fc7ca9a8</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dispersao-mario-de-sa-carneiro/?wpdmdl=1838" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dispersao-mario-de-sa-carneiro-mobi/?wpdmdl=1839" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Loucura…</title>
+    <id>urn:uuid:0ca93967-5bb6-5a70-a6cb-2e583e72784c</id>
+    <author><name>Carneiro, Mário de Sá</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/loucura-mario-de-sa-carneiro/?wpdmdl=1800" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/loucura-mario-de-sa-carneiro-mobi/?wpdmdl=1819" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

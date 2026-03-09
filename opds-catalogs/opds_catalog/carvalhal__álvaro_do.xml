@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-carvalhal__álvaro_do</id>
+  <title>Obras de Carvalhal, Álvaro do</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="carvalhal__álvaro_do.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Contos</title>
+    <id>urn:uuid:f0c75aac-5410-5405-b64a-de958987674a</id>
+    <author><name>Carvalhal, Álvaro do</name></author>
+    <published>2021-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/contos-alvaro-do-carvalhal/?wpdmdl=4040" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/contos-alvaro-do-carvalhal-mobi/?wpdmdl=4042" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Os Canibais</title>
+    <id>urn:uuid:3cd450a7-ed9f-593c-8f99-04e0ec0bfd3e</id>
+    <author><name>Carvalhal, Álvaro do</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-canibais-alvaro-do-carvalhal/?wpdmdl=1804" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/os-canibais-alvaro-do-carvalhal-mobi/?wpdmdl=1823" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

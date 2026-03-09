@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-vale_de_almeida__miguel</id>
+  <title>Obras de Vale de Almeida, Miguel</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="vale_de_almeida__miguel.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>EuroNovela</title>
+    <id>urn:uuid:ad655b2e-2f5d-50b8-babc-a101ce981c46</id>
+    <author><name>Vale de Almeida, Miguel</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/euronovela-miguel-vale-de-almeida/?wpdmdl=2812" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/euronovela-miguel-vale-de-almeida-mobi/?wpdmdl=2814" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

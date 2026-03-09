@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-figueiredo__cândido_de</id>
+  <title>Obras de Figueiredo, Cândido de</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="figueiredo__cândido_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Lisboa no Ano Três Mil</title>
+    <id>urn:uuid:e91dcc83-a6e0-5326-803b-dfecd7d3e367</id>
+    <author><name>Figueiredo, Cândido de</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-no-ano-tres-mil-candido-de-figueiredo/?wpdmdl=1842" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/lisboa-no-ano-tres-mil-candido-de-figueiredo-mobi/?wpdmdl=1843" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

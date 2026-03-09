@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-queirós__eça_de</id>
+  <title>Obras de Queirós, Eça de</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="queirós__eça_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>A Cidade e as Serras</title>
+    <id>urn:uuid:68ddd14b-9313-5551-bccd-79a9f1b56c1c</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-cidade-e-as-serras-eca-de-queiros/?wpdmdl=3017" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-cidade-e-as-serras-eca-de-queiros-mobi/?wpdmdl=3019" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>A Ilustre Casa de Ramires</title>
+    <id>urn:uuid:c301c9ca-68c0-596a-bcc7-e3b385ce9936</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-ilustre-casa-de-ramires-eca-de-queiros/?wpdmdl=1790" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/a-ilustre-casa-de-ramires-eca-de-queiros-mobi/?wpdmdl=1809" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Crime do Padre Amaro</title>
+    <id>urn:uuid:e372583a-3abd-5bfa-bce1-8500e6306e01</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-crime-do-padre-amaro-eca-de-queiros/?wpdmdl=5528" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-crime-do-padre-amaro-eca-de-queiros-mobi/?wpdmdl=5531" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Defunto</title>
+    <id>urn:uuid:ce63eb9a-4583-51ab-9a44-1eb6c1bbac94</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-defunto-eca-de-queiros/?wpdmdl=1795" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-defunto-eca-de-queiros-mobi/?wpdmdl=1814" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Mandarim</title>
+    <id>urn:uuid:be121dc8-2578-501f-80e6-8e99d511e2f1</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-mandarim-eca-de-queiros/?wpdmdl=1826" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-mandarim-eca-de-queiros-mobi/?wpdmdl=1827" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Singularidades de uma Rapariga Loura</title>
+    <id>urn:uuid:9d1d124e-273f-5357-94cf-dd7f1d47dd16</id>
+    <author><name>Queirós, Eça de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/singularidades-de-uma-rapariga-loura-eca-de-queiros/?wpdmdl=1794" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/singularidades-de-uma-rapariga-loura-eca-de-queiros-mobi/?wpdmdl=1813" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

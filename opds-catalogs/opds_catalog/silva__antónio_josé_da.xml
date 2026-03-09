@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-silva__antónio_josé_da</id>
+  <title>Obras de Silva, António José da</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="silva__antónio_josé_da.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Guerras do Alecrim e Manjerona</title>
+    <id>urn:uuid:b09f35e4-b7de-545a-8696-cc1ea130e49c</id>
+    <author><name>Silva, António José da</name></author>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/guerras-do-alecrim-e-manjerona-antonio-jose-da-silva/?wpdmdl=3441" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/guerras-do-alecrim-e-manjerona-antonio-jose-da-silva-mobi/?wpdmdl=3443" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

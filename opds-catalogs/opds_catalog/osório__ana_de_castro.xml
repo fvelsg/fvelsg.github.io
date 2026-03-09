@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-osório__ana_de_castro</id>
+  <title>Obras de Osório, Ana de Castro</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="osório__ana_de_castro.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Às Mulheres Portuguesas</title>
+    <id>urn:uuid:a88a7beb-e1e7-5407-b534-4d17e871958a</id>
+    <author><name>Osório, Ana de Castro</name></author>
+    <published>2022-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-mulheres-portuguesas-ana-de-castro-osorio/?wpdmdl=4140" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/as-mulheres-portuguesas-ana-de-castro-osorio-mobi/?wpdmdl=4143" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Quatro Novelas</title>
+    <id>urn:uuid:91455ff6-49f6-596d-aaf2-c32d3234c59d</id>
+    <author><name>Osório, Ana de Castro</name></author>
+    <published>2015-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quatro-novelas-ana-de-castro-osorio/?wpdmdl=1836" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quatro-novelas-ana-de-castro-osorio-mobi/?wpdmdl=1837" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

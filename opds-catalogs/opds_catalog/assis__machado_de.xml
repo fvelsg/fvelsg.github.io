@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-assis__machado_de</id>
+  <title>Obras de Assis, Machado de</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="assis__machado_de.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Dom Casmurro</title>
+    <id>urn:uuid:7eb4c8bf-2eef-5c46-a929-64aeae798c69</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2013-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dom-casmurro-machado-de-assis/?wpdmdl=1798" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/dom-casmurro-machado-de-assis-mobi/?wpdmdl=1817" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Memórias Póstumas de Brás Cubas</title>
+    <id>urn:uuid:30fc6fe4-c30b-5bea-9538-6dfb8db80421</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2017-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/memorias-postumas-de-bras-cubas-machado-de-assis/?wpdmdl=2376" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/memorias-postumas-de-bras-cubas-machado-de-assis-mobi/?wpdmdl=2378" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>O Alienista</title>
+    <id>urn:uuid:58941c0b-abf2-5ffb-9884-0fb6d591c525</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-alienista-machado-de-assis/?wpdmdl=2828" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/o-alienista-machado-de-assis-mobi/?wpdmdl=2830" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Quincas Borba</title>
+    <id>urn:uuid:904e7075-9d63-5be2-93b0-45037a713d38</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quincas-borba-machado-de-assis/?wpdmdl=2733" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/quincas-borba-machado-de-assis-mobi/?wpdmdl=2735" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Várias Histórias</title>
+    <id>urn:uuid:28336be3-b5ec-51d3-8196-2f60f0cf0030</id>
+    <author><name>Assis, Machado de</name></author>
+    <published>2023-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/varias-historias-machado-de-assis/?wpdmdl=4720" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/varias-historias-machado-de-assis-mobi/?wpdmdl=4722" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:adamastor-author-junqueiro__guerra</id>
+  <title>Obras de Junqueiro, Guerra</title>
+  <updated>2026-03-09T12:24:35Z</updated>
+  <author><name>Chico</name></author>
+  <link rel="self" href="junqueiro__guerra.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <link rel="start" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="up" href="index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" title="Voltar aos Autores"/>
+
+  <entry>
+    <title>Pátria</title>
+    <id>urn:uuid:d70ee81a-0b2f-5c3f-8a3a-4ba0c0e0c7d9</id>
+    <author><name>Junqueiro, Guerra</name></author>
+    <published>2021-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/patria-guerra-junqueiro/?wpdmdl=3556" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/patria-guerra-junqueiro-mobi/?wpdmdl=3558" type="application/x-mobipocket-ebook" />
+  </entry>
+  <entry>
+    <title>Poesias Dispersas</title>
+    <id>urn:uuid:04f4a5af-d8e6-596d-9e17-84a1ca0ca055</id>
+    <author><name>Junqueiro, Guerra</name></author>
+    <published>2014-01-01T00:00:00Z</published>
+    <updated>2026-03-09T12:24:35Z</updated>
+    <dc:language>pt</dc:language>
+    <summary></summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/poesias-dispersas-guerra-junqueiro/?wpdmdl=1801" type="application/epub+zip" />
+    <link rel="http://opds-spec.org/acquisition" href="https://projectoadamastor.org/download/poesias-dispersas-guerra-junqueiro-mobi/?wpdmdl=1820" type="application/x-mobipocket-ebook" />
+  </entry>
+</feed>
