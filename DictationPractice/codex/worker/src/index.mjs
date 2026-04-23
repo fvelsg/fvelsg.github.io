@@ -1,5 +1,8 @@
 const WATCH_PAGE_URL = "https://www.youtube.com/watch?v=";
 const PLAYER_API_URL = "https://www.youtube.com/youtubei/v1/player?key=";
+const KNOWN_PUBLIC_INNERTUBE_API_KEYS = [
+  "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+];
 const BROWSER_USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36";
 const ANDROID_USER_AGENT =
@@ -140,7 +143,50 @@ function jsonResponse(body, status = 200) {
 }
 
 async function fetchCaptionsRenderer(videoId) {
-  const apiKey = await getInnertubeApiKey(videoId);
+  const candidateKeys = [];
+  const triedKeys = new Set();
+  let lastError = null;
+
+  if (cachedInnertubeApiKey && Date.now() < cachedInnertubeApiKeyExpiresAt) {
+    candidateKeys.push(cachedInnertubeApiKey);
+  }
+
+  for (const apiKey of KNOWN_PUBLIC_INNERTUBE_API_KEYS) {
+    if (!candidateKeys.includes(apiKey)) {
+      candidateKeys.push(apiKey);
+    }
+  }
+
+  for (const apiKey of candidateKeys) {
+    triedKeys.add(apiKey);
+
+    try {
+      const captionsRenderer = await fetchCaptionsRendererWithApiKey(videoId, apiKey);
+      cachedInnertubeApiKey = apiKey;
+      cachedInnertubeApiKeyExpiresAt = Date.now() + 30 * 60 * 1000;
+      return captionsRenderer;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  try {
+    const runtimeApiKey = await getInnertubeApiKey(videoId);
+
+    if (!triedKeys.has(runtimeApiKey)) {
+      const captionsRenderer = await fetchCaptionsRendererWithApiKey(videoId, runtimeApiKey);
+      cachedInnertubeApiKey = runtimeApiKey;
+      cachedInnertubeApiKeyExpiresAt = Date.now() + 30 * 60 * 1000;
+      return captionsRenderer;
+    }
+  } catch (error) {
+    lastError = error;
+  }
+
+  throw lastError || new Error("Não foi possível consultar as legendas deste vídeo.");
+}
+
+async function fetchCaptionsRendererWithApiKey(videoId, apiKey) {
   const response = await fetch(PLAYER_API_URL + apiKey, {
     method: "POST",
     headers: {
