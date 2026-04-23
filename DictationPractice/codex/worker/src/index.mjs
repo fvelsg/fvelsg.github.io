@@ -132,12 +132,13 @@ export default {
 };
 
 function jsonResponse(body, status = 200) {
+  const isSuccess = status >= 200 && status < 300;
   return new Response(JSON.stringify(body, null, 2), {
     status,
     headers: {
       ...CORS_HEADERS,
       "Content-Type": "application/json; charset=UTF-8",
-      "Cache-Control": "public, max-age=300"
+      "Cache-Control": isSuccess ? "public, max-age=300" : "no-store"
     }
   });
 }
@@ -187,43 +188,57 @@ async function fetchCaptionsRenderer(videoId) {
 }
 
 async function fetchCaptionsRendererWithApiKey(videoId, apiKey) {
-  const response = await fetch(PLAYER_API_URL + apiKey, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "User-Agent": ANDROID_USER_AGENT,
-      "X-YouTube-Client-Name": "3",
-      "X-YouTube-Client-Version": ANDROID_CONTEXT.client.clientVersion,
-      Origin: "https://www.youtube.com"
-    },
-    body: JSON.stringify({
-      context: ANDROID_CONTEXT,
-      videoId
-    })
-  });
+  let lastError = null;
 
-  if (!response.ok) {
-    throw new Error(`Falha ao consultar o player do YouTube (${response.status}).`);
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const response = await fetch(PLAYER_API_URL + apiKey, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "User-Agent": ANDROID_USER_AGENT,
+          "X-YouTube-Client-Name": "3",
+          "X-YouTube-Client-Version": ANDROID_CONTEXT.client.clientVersion,
+          Origin: "https://www.youtube.com"
+        },
+        body: JSON.stringify({
+          context: ANDROID_CONTEXT,
+          videoId
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`Falha ao consultar o player do YouTube (${response.status}).`);
+      }
+
+      const playerData = await response.json();
+      const playabilityStatus = playerData?.playabilityStatus?.status;
+
+      if (playabilityStatus && playabilityStatus !== "OK") {
+        const reason =
+          playerData?.playabilityStatus?.reason ||
+          "O YouTube não liberou a reprodução deste vídeo.";
+        throw new Error(reason);
+      }
+
+      const captionsRenderer =
+        playerData?.captions?.playerCaptionsTracklistRenderer;
+
+      if (!captionsRenderer?.captionTracks?.length) {
+        throw new Error("Este vídeo não possui legendas disponíveis.");
+      }
+
+      return captionsRenderer;
+    } catch (error) {
+      lastError = error;
+
+      if (attempt < 2) {
+        await sleep(250 * (attempt + 1));
+      }
+    }
   }
 
-  const playerData = await response.json();
-  const playabilityStatus = playerData?.playabilityStatus?.status;
-
-  if (playabilityStatus && playabilityStatus !== "OK") {
-    const reason =
-      playerData?.playabilityStatus?.reason ||
-      "O YouTube não liberou a reprodução deste vídeo.";
-    throw new Error(reason);
-  }
-
-  const captionsRenderer =
-    playerData?.captions?.playerCaptionsTracklistRenderer;
-
-  if (!captionsRenderer?.captionTracks?.length) {
-    throw new Error("Este vídeo não possui legendas disponíveis.");
-  }
-
-  return captionsRenderer;
+  throw lastError || new Error("Falha ao consultar o player do YouTube.");
 }
 
 async function getInnertubeApiKey(videoId) {
@@ -525,6 +540,10 @@ function getTrackDisplayName(track) {
 
 function normalizeLanguageCode(value) {
   return (value || "").trim().toLowerCase().replace(/_/g, "-");
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 const VIDEO_ID_PATTERN = /^[a-zA-Z0-9_-]{11}$/;

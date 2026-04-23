@@ -200,7 +200,11 @@ const carregarYouTube = async () => {
         height: playerHeight,
         width: '100%',
         videoId: videoId,
-        playerVars: { 'playsinline': 1, 'controls': 1 },
+        playerVars: {
+          'playsinline': 1,
+          'controls': 1,
+          'origin': window.location.origin
+        },
         events: {
           'onReady': e => e.target.pauseVideo(),
           'onStateChange': onPlayerStateChange
@@ -451,12 +455,34 @@ const carregarTranscricaoYouTube = async ({ automatico = false } = {}) => {
     const endpoint = new URL(subtitleWorkerUrl);
     endpoint.searchParams.set("videoId", videoId);
     endpoint.searchParams.set("langs", getPreferredLanguages().join(","));
+    endpoint.searchParams.set("_t", Date.now().toString());
 
-    const response = await fetch(endpoint.toString());
-    const data = await response.json().catch(() => null);
+    let data = null;
+    let lastError = null;
 
-    if (!response.ok || !data?.ok || !data?.srt) {
-      throw new Error(data?.error || "Não foi possível buscar a transcrição automática deste vídeo.");
+    for (let tentativa = 0; tentativa < 3; tentativa++) {
+      try {
+        const response = await fetch(endpoint.toString(), { cache: "no-store" });
+        data = await response.json().catch(() => null);
+
+        if (!response.ok || !data?.ok || !data?.srt) {
+          throw new Error(data?.error || "Não foi possível buscar a transcrição automática deste vídeo.");
+        }
+
+        lastError = null;
+        break;
+      } catch (error) {
+        lastError = error;
+
+        if (tentativa < 2) {
+          await new Promise(resolve => setTimeout(resolve, 400 * (tentativa + 1)));
+          endpoint.searchParams.set("_t", `${Date.now()}-${tentativa}`);
+        }
+      }
+    }
+
+    if (lastError || !data?.srt) {
+      throw lastError || new Error("Não foi possível buscar a transcrição automática deste vídeo.");
     }
 
     processarTranscricao(data.srt, {
